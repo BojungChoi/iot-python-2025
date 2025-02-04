@@ -25,3 +25,4 @@ name = '보덩'
 age = 30
 weight = 77.7
 print(f'나는 {name:>10s}(이)고, {age}살입니다. 몸무게 {weight}Kg입니다.') #f를 씀으로써, 더 간단하게 씀 (format)
+# {name:>10s} 은 공백을 10칸띄움 
