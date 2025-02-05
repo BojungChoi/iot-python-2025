@@ -82,18 +82,18 @@ print(current[0:3 + 1])
 
 # 2025-02-04
 year = current[0:3 + 1]
-month = current[5:6 + 1]
+month = current[5:6 + 1] # 5번째부터 6번째까지 출력
 day = current[8:] # end 끝까지는 숫자 생각
 print(year, month, day)
-print(current[-2:])
+print(current[-2:]) # 끝에서부터 2번째 (04출력력)
 
 ## 문자열 연산 중 함수를 사용
 full_name = "Bo jung. Choi"
 #자르기 split
 print(full_name.split())
-print(full_name.split(' ')) #공백을 잘라서 스플릿 해줘줘
+print(full_name.split(' ')) #공백을 잘라서 스플릿 해줘
 
-names = full_name.split('.')# . 를 잘라서 스플릿 해줘줘
+names = full_name.split('.')# . 를 잘라서 스플릿 해줘
 print(type(names))
 print(names)
 
@@ -123,5 +123,5 @@ print(full_name.count('o')) # full_name 중에 o 가 문장에 몇번 존재하�
 # print(full_name.index('H')) # 오류발생!
 
 print(full_name.upper()) # 모든 단어를 대문자로
-print(full_name.lower()) # 모든 단어를 소문자로로
+print(full_name.lower()) # 모든 단어를 소문자로
 
