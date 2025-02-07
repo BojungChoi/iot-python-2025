@@ -43,8 +43,13 @@ print(arr)
 arr.insert(2, 100) # 지정된 자리에 값을 추가
 print(arr)
 
-## 리스트를 합칠 때
-print(arr.extend(arr2))
+# ## 리스트를 합칠 때
+# arr.append(arr2)
+# print(arr)
+
+# arr.extend(arr2)
+# print(arr)
+
 
 ## 리스트 정렬(쇼핑몰 낮은가격순, 높은가격순, 최신일자부터...)
 arr = [6, 7, 1, 3, 9, 0, 2, 8, ]
