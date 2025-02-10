@@ -144,7 +144,6 @@ IoT 개발자 기초프로그래밍 언어 리포지토리
             - 화면편집 : 검색이나 출력시 데이터 수 표시
 
 
-
 https://github.com/user-attachments/assets/f9d042ae-80c1-49c6-8d56-5dda527aa309
 
 
