@@ -156,9 +156,11 @@ https://github.com/user-attachments/assets/f9d042ae-80c1-49c6-8d56-5dda527aa309
     - GUI 학습
         - GUI(Graphic User Interface) - 그래픽 사용자 인터페이스
         - CLI(Console Line Interface) - GUI 이전 사용자 인터페이스, 사용이 불편. 사용자가 명령어를 거의 다 외워서 사용
+        - GUI 학습에는 불합리
+        - 빅데이터분석, 머신러닝, 딥러닝 많이 활용
 
     - 파이썬 GUI 라이브러리
-        1. PyQt, PySide : 파이썬 최고의 GUI 라이브러리. Qt라은 C/C++ 사용할 GUI 라이브러리를 Python용으로 변경
+        1. PyQt, PySide : 파이썬 최고의 GUI 라이브러리. Qt라는 C/C++ 사용할 GUI 라이브러리를 Python용으로 변경
             - 화려한 UI구성
             - 코딩 다양성
             - 조금 어렵다(파이썬 코드와 분리가능)
@@ -171,3 +173,25 @@ https://github.com/user-attachments/assets/f9d042ae-80c1-49c6-8d56-5dda527aa309
             - 안드로이드, iOS 모바일 앱 UI 사용가능
             - 모바일 특화로 멀티플랫폼 지원
             - 가장 어렵다
+
+
+    - Tkinter 학습
+        - 기본 템플릿
+
+        ``` Python
+        from tkinter import *
+
+        root = Tk()
+
+        # 이 사이에 위젯, 이벤트 등 작성
+        # Label, Button, Entry, Radibutton
+        # Checkbutton, Listbox, Frame 등... -> 부모Class 가 위젯임
+        
+        # 위젯 pack() 필수,,!!
+    
+        root.mainloop()
+        ```
+<!--주석 -->
+<!-- html에서 사용하는 <img> 태그로 캡처한 이미지를 추가 -->
+<!-- ![py001](./image/py001.png) -->
+<img src="./image/py001.png" width="400">
