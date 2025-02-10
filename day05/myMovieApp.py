@@ -24,8 +24,13 @@ def run():
         Sel_menu = set_menu()
         if Sel_menu == 1:
             # print('영화 입력')
-            movie = set_movie()
-            lst_movie.append(movie)
+            try : # 예외처리 try , except 비정상 종료를 막고 다시실행.
+                movie = set_movie()
+                lst_movie.append(movie)
+                print('영화 입력 성공!')
+            except Exception as e:
+                print(f'영화 입력 실패!! {e}')
+
 
         elif Sel_menu == 2:
             print('영화 출력')
@@ -56,16 +61,22 @@ def run():
 
 # 영화검색 함수
 def search_movie(items: list, title: str):
+    count = 0
     for item in items: # item이 Movie 클래스인지 알 수 없음.
         if item.isNameContain(title): # 오타발생 위험!
+            count += 1 # 검색된 결과가 있음.
             print(item)
+            print('-------------')
 
+    print(f'검색 데이터수 : {count} 개')
 
 
 def del_movie(items: list, title: str):
     for i, item in enumerate(items): # enumerate :열거형
         if item.isNameExist(title):
             del items[i] # 인덱스로 리스트에 요소하나를 삭제
+    # get_movie(items)
+
             
 
 
@@ -110,7 +121,11 @@ def set_movie():
 # items변수는 list타입이라고 지정
 def get_movie(items: list):
     for item in items:
+        # print(f'{items.index(item)} ')
         print(item) # Movie 클래스 객체
+        print('-------------') # 각 영화아이템별 구분자
+
+    print(f'총 데이터수 : {len(items)} 개')
 
 
 def set_menu():
