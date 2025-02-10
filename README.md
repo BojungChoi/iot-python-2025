@@ -144,7 +144,7 @@ IoT 개발자 기초프로그래밍 언어 리포지토리
             - 화면편집 : 검색이나 출력시 데이터 수 표시
 
 
- https://github.com/user-attachments/assets/f9d042ae-80c1-49c6-8d56-5dda527aa309
+    https://github.com/user-attachments/assets/f9d042ae-80c1-49c6-8d56-5dda527aa309
 
     - 주피터노트북 기본사용법
         - 파이썬을 사용, 연구를 목적으로하는 리포트 작성에 특화된 기술
