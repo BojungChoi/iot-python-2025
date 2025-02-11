@@ -97,7 +97,7 @@ IoT 개발자 기초프로그래밍 언어 리포지토리
                 # 로직
         ```
 
-    ## 4일차
+## 4일차
 - 파이썬 기초
     - 리스트 연산 추가
         - append(), insert(index, value), del(lest[index]), pop(), sort(), ...
