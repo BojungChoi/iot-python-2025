@@ -175,26 +175,26 @@ IoT 개발자 기초프로그래밍 언어 리포지토리
                 - 가장 어렵다
 
 
-- Tkinter 학습
-        - 기본 템플릿
+    - Tkinter 학습
+            - 기본 템플릿
 
-        ``` Python
-        from tkinter import *
+            ``` Python
+            from tkinter import *
 
-        root = Tk()
+            root = Tk()
 
-        # 이 사이에 위젯, 이벤트 등 작성
-        # Label, Button, Entry, Radibutton
-        # Checkbutton, Listbox, Frame 등... -> 부모Class 가 위젯임
+            # 이 사이에 위젯, 이벤트 등 작성
+            # Label, Button, Entry, Radibutton
+            # Checkbutton, Listbox, Frame 등... -> 부모Class 가 위젯임
+                
+            # 위젯 pack() 필수,,!!
             
-        # 위젯 pack() 필수,,!!
-        
-        root.mainloop()
-        ```
-    <!--주석 -->
-    <!-- html에서 사용하는 <img> 태그로 캡처한 이미지를 추가 -->
-    <!-- ![py001](./image/py001.png) -->
-    <img src="./image/py001.png" width="400">
+            root.mainloop()
+            ```
+        <!--주석 -->
+        <!-- html에서 사용하는 <img> 태그로 캡처한 이미지를 추가 -->
+        <!-- ![py001](./image/py001.png) -->
+        <img src="./image/py001.png" width="400">
 
 ## 7일차
 - 파이썬 응용
@@ -203,10 +203,13 @@ IoT 개발자 기초프로그래밍 언어 리포지토리
     - 실습
         - 제미나이 챗앱 -> **클래스형태**로 변경
 
+
+- 파이썬 응용
     - 실행파일 만들기
         - `pyinstaller` 모듈 설치
-        - > pip install pyinstaller
-        - > pyinstaller --onefile 파이썬파일명
-        - 같이 실행되는 터미널 제거하려면
-        - > pyinstaller --onefile --noconsole 파이썬파일명
-        - 아이콘등의 리소스를 dist 폴더에 복사해야
+            pip install pyinstaller
+        - 실행파일 명령어(터미널에 실행)
+            pyinstaller --onefile 파이썬파일명
+            - 같이 실행되는 터미널 제거하려면
+            pyinstaller --onefile --noconsole 파이썬파일명
+            - 아이콘등의 리소스를 dist 폴더에 복사해야
