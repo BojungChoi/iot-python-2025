@@ -226,7 +226,7 @@ https://github.com/user-attachments/assets/942d9492-e4bc-41cf-a999-347011fd4ddb
         - 블록깨기 게임
         - 공의 x축 방향 계산방법 : $x = r \cdot \cos \theta$
         - 공의 y축 방향 계산방법 : $y = r \cdot \sin \theta$
-<!--$$ y = r \cdot \sin \theta $$-->
+<!--$$ y = r \cdot \sin \theta $$--> 
 
 <img src="./image/BLOCK.gif" width="700" height="450" >  
 
