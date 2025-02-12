@@ -123,13 +123,14 @@ def main():
                 Surface.blit(M_CLEAR, ((SCREEN_WIDTH / 2) - (240 / 2),
                              (SCREEN_HEIGHT / 2) - (50 / 2)))
                 
-            elif BALL.rect.centery > 950:
+            if BALL.rect.centery > 950:
                 Surface.blit(M_FAIL, ((SCREEN_WIDTH / 2) - (240 / 2),
                              (SCREEN_HEIGHT / 2) - (50 / 2)))
-                    
+
                 
-            is_game_start = False
-            BALL = Block((200,200,0), Rect(375,650,20,20),10)
+                
+                # is_game_start = False
+                # BALL = Block((200,200,0), Rect(375,650,20,20),10)
 
             BALL.draw_E()
             PADDLE.draw_R()
