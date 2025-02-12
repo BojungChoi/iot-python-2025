@@ -188,7 +188,6 @@ IoT 개발자 기초프로그래밍 언어 리포지토리
             # Checkbutton, Listbox, Frame 등... -> 부모Class 가 위젯임
                 
             # 위젯 pack() 필수,,!!
-            
             root.mainloop()
             ```
         <!--주석 -->
@@ -203,9 +202,7 @@ IoT 개발자 기초프로그래밍 언어 리포지토리
     - 실습
         - 제미나이 챗앱 -> **클래스형태**로 변경
 
-
 https://github.com/user-attachments/assets/942d9492-e4bc-41cf-a999-347011fd4ddb
-
 
 - 파이썬 응용
     - 실행파일 만들기
@@ -227,6 +224,7 @@ https://github.com/user-attachments/assets/942d9492-e4bc-41cf-a999-347011fd4ddb
 
     - 토이프로젝트
         - 블록깨기 게임
+        - \mathfrak{공의 x 축 계산 방법 : } \mathfrak{\tfrac{x}{y}}
 
 <img src="./image/BLOCK.gif" width="700" height="450" >  
 
