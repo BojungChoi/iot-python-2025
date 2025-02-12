@@ -100,7 +100,7 @@ def main():
             
             BALL.draw_E()
 
-            for i in BLOCK: # Block()
+            for i in BLOCK: # Block()   
                 i.draw_R()
 
         pygame.display.update() 
