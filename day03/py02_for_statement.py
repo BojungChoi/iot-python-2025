@@ -51,5 +51,6 @@ for x in range (2, 9 + 1): # 2부터 9까지 출력
 
 print('구구단 종료 \n\n\n\n')
 
+
 ## 반복문을 빠져나올때 : break
 ## 반복문에서 특정 조건을 지나칠때 : continue
