@@ -11,3 +11,8 @@ IoT 개발자과정
 
     1. 다운로드를 클릭하면 VisualStudioSetup.exe 자동 다운로드
     2. VisalStudio Installer 시작
+        - https://learn.microsoft.com/ko-kr/visualstudio/install/install-visual-studio?view=vs-2022
+        참조
+        - 경로 변경
+        - **ASP.NET 웹 개발**, **.NET 데스크톱 개발**, **C++ 를 사용한 데스크톱 개발 선택**
+        - 설치 시작
