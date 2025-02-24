@@ -31,3 +31,12 @@ IoT 개발자과정
 - https://www.docker.com/
     1. 사이트에서 Docker Personal 선택
     2. Docker Desktop AMD64 클릭 다운로드
+    3. 설치 재부팅 후 아래의 메시지가 출력되면,
+
+        <img src='./image/py010.png' width='600'>
+    
+    4. powershell에서 아래 명령어 실행
+
+        ```shell
+        > wsl --update
+        ```
